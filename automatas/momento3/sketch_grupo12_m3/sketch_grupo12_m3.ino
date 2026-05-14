@@ -236,7 +236,7 @@ void control_super_usuario() {
           lcd.setCursor(0, 0);
           lcd.print(F("Bloqueo: Use IR"));
           lcd.setCursor(0, 1);
-          lcd.print(F("o espere 15 sg"));
+          lcd.print(F("o espere 10 sg"));
           limpiarResiduo = false;  // Asegurar que parte de nuestro mensaje no sea eliminado
         }
 
